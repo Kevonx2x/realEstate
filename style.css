@@ -1,76 +1,154 @@
+
 /*Global*/
+html{
+    font-size: 62.5%;
+}
 *{
     margin:0; 
     padding:0;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-h1,h2,h3{
-    padding-bottom: 10px;
-    padding-top: 10px;
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
-
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;    
+}
 img{
     max-width: 100%;
 }
-p{
-    line-height: 1.5;
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+h3{
+    font-size: 2.3rem;
 }
 a{
-    color: white;
+    color: black;
     text-decoration: none;
+    font-size: 1.6rem;
+    margin-right: 1rem;
 }
-
+img{
+    max-width: 100%;
+}
 /*--------------------------------------------------------------------*/
-
+/* Utilities */
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-c{
+    display: flex;
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    align-items: center;  
+}
+.p-houses-item{
+    color: rgb(27, 188, 22);
+}
+.houses-item a{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 10px;
+    height: 3rem;
+    align-items: center;
+}
+.bt{
+    font-weight: bold;
+}
+.lt{
+    font-weight: 100;
+}
+/*--------------------------------------------------------------------*/
 /* Header */
 .header-site-init {
     background-image: url(./realEstate-img/header.jpg);
     background-size: cover;
-    height: 300px;
+    height: 30rem;
     color: white;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
-.bar {
-    color: white;
-    display: block;
-    margin-right: x;
-
-
-}
-
-.nav-site-init a {
-    color: white;
-    margin-right: 20px;
-
-}
 /*--------------------------------------------------------------------*/
+/* More About Us */
+.more-about-item{
+    margin-right: 1rem;
+    padding: 1rem;
+}
+.more-about-item p{
+    text-align: justify;
+}
 
-/* Main */
-.container{
-    margin: 5px;
+/*--------------------------------------------------------------------*/
+/* Houses and Penthouses */
+.houses-item{
+    margin-right: 1rem;
+    margin-top: 3rem;
+}
+
+/*--------------------------------------------------------------------*/
+/* Contact */
+.site-contact{
+    background-color: rgb(193, 134, 6);
+    color: black;
+    height: 20rem;
+}
+
+.site-contact a{
+    color: black;
+}
+
+/*--------------------------------------------------------------------*/
+/* Forms */
+
+.form-control{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: lightgrey;
+    border-radius: 3px;
+    padding: 1px;
+
+}
+.form-control label{
+    width: 100px;
+    margin-right: 100px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+
+
+}
+.form-control input,
+.form-control textarea {
+    flex: 1;
     padding: 5px;
+    border-radius: 3px;
+    font-size: 3rem;
 }
-
-
-
-
-
-/*--------------------------------------------------------------------*/
-
-/* Footer */
-.site-footer {
-        color: white;
-        background: black;
-        text-align: center;
-        display: block;
-    }
-
-.main-div-space {
-    margin-bottom: 40px;
-}
-
