@@ -32,7 +32,7 @@
         <p class="bt">Fill the next information</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias aut quos optio perspiciatis laudantium saepe repudiandae atque! Modi dicta similique, quisquam sequi labore culpa sapiente perferendis voluptatem. Et, impedit nobis.<i class="fa-solid fa-circle-info"></i> </p>
 
-        <div class="form-control">
+        <div class="form-container">
             <fieldset>
                 <legend>Personal information</legend>
                 <div class="form-control"> 
@@ -52,7 +52,47 @@
                     <textarea></textarea>
                 </div>
             </fieldset>
+            <fieldset>
+                <legend>Product information</legend>
+                <div class="form-control">
+                    <label>Type</label>
+                    <select>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label>Number:</label>
+                    <input type="number">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Contact information</legend>
+                <div class="form-control flex-c">
+                    <div class="flex-c">
+                        <label>Email:</label>
+                        <input type="radio">
+                    </div>
+                    <div class="flex-c">
+                        <label>Phone:</label>
+                        <input type="radio">
+                    </div>
+                    <section>
+                    <div class="flex-c">
+                        <label>Date</label>
+                        <input type="datetime-local">
+                    </div>
+                    <div class="flex-c">
+                        <label>Hour</label>
+                        <input type="time">
+                    </div>
+                    </section>
+                </div>
+            </fieldset>
+
         </div>
+
     </main>
 
     <footer class="container">

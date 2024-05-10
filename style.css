@@ -124,31 +124,27 @@ img{
 .site-contact a{
     color: black;
 }
-
-/*--------------------------------------------------------------------*/
-/* Forms */
-
-.form-control{
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-    background-color: lightgrey;
-    border-radius: 3px;
-    padding: 1px;
-
+.form-container{
+    padding: 1rem;
+    background-color: #dedede;
 }
-.form-control label{
-    width: 100px;
-    margin-right: 100px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-
-
+.form-container fieldset{
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+.form-control{
+    margin: 1rem;
 }
 .form-control input,
-.form-control textarea {
-    flex: 1;
-    padding: 5px;
-    border-radius: 3px;
-    font-size: 3rem;
+.form-control select,
+.form-control textarea{
+    width: 60%;
+    padding: 3px;
 }
+
+.form-control label{
+    display: inline-block;
+    width: 150px;
+}
+/*--------------------------------------------------------------------*/
+/* Forms */
